@@ -33,9 +33,9 @@
        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
        <ul class="right hide-on-med-and-down">
          <li class="active"><a href="#">Home</a></li>
-         <li><a href="badges.html">Components</a></li>
-         <li><a href="collapsible.html">Javascript</a></li>
-         <li><a href="mobile.html">Mobile</a></li>
+         <li><a href="medical.html">Medical</a></li>
+         <li><a href="agricultural.html">Agricultural</a></li>
+         <li><a href="music.html">Music</a></li>
        </ul>
      </div>
    </nav>
@@ -44,9 +44,9 @@
  <!-- Mobile Nav -->
  <ul class="sidenav" id="mobile-demo">
    <li class="active"><a href="#">Home</a></li>
-   <li><a href="badges.html">Components</a></li>
-   <li><a href="collapsible.html">Javascript</a></li>
-   <li><a href="mobile.html">Mobile</a></li>
+   <li><a href="medical.html">Medical</a></li>
+   <li><a href="agricultural.html">Agricultural</a></li>
+   <li><a href="music.html">Music</a></li>
  </ul>
 
   <!-- To top button -->
@@ -105,16 +105,83 @@
     </div>
   </div>
 
+  <!-- Content -->
   <div class="content hidden">
     <div class="row">
-      <div class="col hide-on-small-only m3 l2">
-        <ul class="section table-of-contents pushpin">
-          <br><br><br><br><br>
-          <li><a href="#introduction">Intro</a></li>
-          <li><a href="#structure">Structure</a></li>
-          <li><a href="#initialization">Intialization</a></li>
-        </ul>
-    </div>
+      <div class="col hide-on-med-and-down l2">
+
+        <!-- Sidebar Cards -->
+        <div class="card">
+           <div class="card-image waves-effect waves-block waves-light">
+             <img class="activator" src="images/card1.png">
+           </div>
+           <div class="card-content">
+             <span class="card-title activator grey-text text-darken-4">Hmmmmmmmm<i class="material-icons right">more_vert</i></span>
+             <p><a href="#">This is a link</a></p>
+           </div>
+           <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>What if I add content to this sidebar of mine?</p>
+          </div>
+        </div>
+
+        <div class="card">
+           <div class="card-image waves-effect waves-block waves-light">
+             <img class="activator" src="images/card2.jpg">
+           </div>
+           <div class="card-content">
+             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+             <p><a href="#">This is a link</a></p>
+           </div>
+           <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>What if I add content to this sidebar of mine?</p>
+          </div>
+        </div>
+
+        <div class="card">
+           <div class="card-image waves-effect waves-block waves-light">
+             <img class="activator" src="images/card3.jpg">
+           </div>
+           <div class="card-content">
+             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+             <p><a href="#">This is a link</a></p>
+           </div>
+           <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>What if I add content to this sidebar of mine?</p>
+          </div>
+        </div>
+
+        <div class="card">
+           <div class="card-image waves-effect waves-block waves-light">
+             <img class="activator" src="images/card4.jpg">
+           </div>
+           <div class="card-content">
+             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+             <p><a href="#">This is a link</a></p>
+           </div>
+           <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>What if I add content to this sidebar of mine?</p>
+          </div>
+        </div>
+
+        <div class="card">
+           <div class="card-image waves-effect waves-block waves-light">
+             <img class="activator" src="images/card5.jpg">
+           </div>
+           <div class="card-content">
+             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+             <p><a href="#">This is a link</a></p>
+           </div>
+           <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+            <p>What if I add content to this sidebar of mine?</p>
+          </div>
+        </div>
+
+      </div>
       <div class="col s12 m9 l8">
         <div id="introduction" class="section scrollspy">
           <h1>Introduction</h1>
@@ -173,6 +240,8 @@
           </p>
         </div>
       </div>
+
+      <!-- Scrollspy -->
       <div class="col hide-on-small-only m3 l2">
         <ul class="section table-of-contents pushpin">
           <br><br><br><br><br>
@@ -184,6 +253,7 @@
     </div>
   </div>
 
+  <!-- Footer -->
   <footer class="page-footer hidden">
           <div class="container">
             <div class="row">
@@ -214,27 +284,47 @@
 <!-- Import jquery-3.3.1.min.js -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
+<!-- Import js.cookie.min.js -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
 <!-- Import materialize.min.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
 <script type="text/javascript">
-  // Initialize side nav and ScrollSpy
-  $(document).ready(function(){
-    $('.sidenav').sidenav();
-    $('.scrollspy').scrollSpy();
-    $('.pushpin').pushpin();
-    $(".btn-floating").hide();
-  });
+// Initialize side nav and ScrollSpy
+$(document).ready(function(){
+  $('.sidenav').sidenav();
+  $('.scrollspy').scrollSpy();
+  $('.pushpin').pushpin();
+  var preloader = Cookies.get('preloader');
+  if(preloader == null){
+    Cookies.set('preloader', 'true');
+    loader();
+  } else {
+    loader2();
+  }
+});
+
+function loader(){
   window.setTimeout(function(){
         $('.content').hide().removeClass('hidden');
         $('.page-footer').hide().removeClass('hidden');
+        $('.fixed-action-btn').hide().removeClass('hidden');
         $('.preloader-wrapper').fadeOut();
         window.setTimeout(function(){
           $('.content').fadeIn();
           $('.page-footer').fadeIn();
+          $('.fixed-action-btn').fadeIn();
         }, 500);
   }, 3000);
+}
 
+function loader2(){
+  $('.preloader-wrapper').hide();
+  $('.content').removeClass('hidden');
+  $('.page-footer').removeClass('hidden');
+  $('.fixed-action-btn').removeClass('hidden');
+}
 
   // When the user scrolls down 20px from the top of the document, show the button
   window.onscroll = function() {scrollFunction()};
