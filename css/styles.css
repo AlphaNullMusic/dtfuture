@@ -1,3 +1,52 @@
 .hidden {
   display: none;
 }
+nav a.active {
+    background-color: rgba(0,0,0,0.1);
+}
+.modal {
+    overflow-y: hidden!important;
+    overflow-x: hidden!important;
+    background: rbga(0,0,0,0);
+}
+.modal.open {
+    display: inline-block!important;
+    width: 117px
+}
+.modal-content {
+    align-content: center!important;
+}
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%!important;
+    transform: translate(-50%, -50%);
+    transition-timing-function: ease;
+    transition: 0.2s;
+}
+.background-image {
+    height: 100vh;
+	background-position: center;
+	background-size: cover;
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -100;
+	margin-bottom: auto;
+    transition: background-image 1s linear;
+}
+.background-image.bg-home {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/technology.jpg');
+}
+.background-image.bg-agricultural {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/agricultural.jpg');
+}
+.background-image.bg-education {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/education.jpg');
+}
+.background-image.bg-entertainment {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/entertainment.jpg');
+}
+.background-image.bg-medical {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/medical.jpg');
+}
