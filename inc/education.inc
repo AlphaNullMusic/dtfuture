@@ -20,7 +20,7 @@
                 </div>
         
                 <div class="col s12 m9 l8">
-                    <div id="introduction" class="section scrollspy">
+                    <div id="education" class="section scrollspy">
                         <h4>
                             Research by the World Economic Forum estimates that 65% of children entering primary school will find themselves in occupations that today do not exist. Isn’t it scary?
                         </h4>
@@ -92,11 +92,11 @@
                         </ul>
                     </div>
 
-                    <div id="conclusion" class="section scrollspy">
+                    <div id="end" class="section scrollspy">
                         <h3>Conclusion</h3>
                         <h6>
                             Nowadays, students become more and more involved in forming their own education. In 10 years, students will incorporate so much independence into their learning process, that mentoring will become fundamental to student success. And teachers will form a central point in the jungle of information that students will be paving their way through. I really believe that the future of technology in education is about adapting to the fast-changing world, giving students an opportunity to choose their own way of learning, combining theory and practice, always taking into account the current demand of the market.
-                        </h6>
+                        </h6><br><br><br><br><br><br><br><br>
                     </div>
                 </div>
 

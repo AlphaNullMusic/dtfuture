@@ -20,7 +20,7 @@
                 </div>
         
                 <div class="col s12 m9 l8">
-                    <div id="introduction" class="section scrollspy">
+                    <div id="entertainment" class="section scrollspy">
                         <h5>
                             While looking back at the past year, one thing becomes crystal clear: streaming has grown massively in 2017 and will continue to expand rapidly in 2018 and beyond. In fact, streaming has become the primary revenue driver for both music and video, thereby radically changing the way people consume content and profoundly altering the manner in which the industry and artists deliver media to fans.
                         </h5>
