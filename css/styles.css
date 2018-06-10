@@ -26,6 +26,7 @@ nav a.active {
 }
 .background-image {
     height: 100vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/technology.jpg');
 	background-position: center;
 	background-size: cover;
     width: 100%;
@@ -34,19 +35,4 @@ nav a.active {
     z-index: -100;
 	margin-bottom: auto;
     transition: background-image 1s linear;
-}
-.background-image.bg-home {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/technology.jpg');
-}
-.background-image.bg-agricultural {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/agricultural.jpg');
-}
-.background-image.bg-education {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/education.jpg');
-}
-.background-image.bg-entertainment {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/entertainment.jpg');
-}
-.background-image.bg-medical {
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/medical.jpg');
 }
