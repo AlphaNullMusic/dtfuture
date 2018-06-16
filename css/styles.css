@@ -22,11 +22,13 @@ nav a.active {
     left: 50%!important;
     transform: translate(-50%, -50%);
     transition-timing-function: ease;
-    transition: 0.2s;
+    transition: 1s;
+}
+.bg-home {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/technology.jpg');
 }
 .background-image {
     height: 100vh;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/technology.jpg');
 	background-position: center;
 	background-size: cover;
     width: 100%;
@@ -36,3 +38,49 @@ nav a.active {
 	margin-bottom: auto;
     transition: background-image 1s linear;
 }
+.bg-further-info {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4) ), url('../images/machine-learning.jpg');
+}
+.center-text.info-container {
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 8px;
+    padding: 35px!important;
+}
+.info-container.white {
+    background: #ffffff;
+    color: #000000;
+}
+.info-container.black {
+    background: #000000;
+    color: #ffffff;
+}
+.further-info {
+    transition-timing-function: ease;
+    transition: 1s;
+}
+@media only screen and (max-width: 600px) {
+    .info-container {
+        display: none;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .further-info h1 {
+        font-size: 3rem!important;
+    }
+    .further-info h3 {
+        font-size: 2rem!important;
+    }
+    .further-info h4 {
+        font-size: 2.4rem!important;
+    }
+}
+hr {
+    margin: 40px;
+    border: none;
+    height: 1px!important;
+    background-image: -webkit-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+    background-image: -moz-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5)); 
+    background-image: -ms-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+    background-image: -o-linear-gradient(left, rgba(255,2,5,.5), rgba(137,11,138,.5), rgba(27,123,187,.5), rgba(47,195,44,.5), rgba(253,201,1,.5), rgba(255,91,2,.5), rgba(255,91,2,.5), rgba(253,201,1,.5), rgba(47,195,44,.5), rgba(27,123,187,.5), rgba(137,11,138,.5), rgba(255,2,5,.5));
+} 

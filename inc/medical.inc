@@ -17,6 +17,7 @@
                 <div class="col s12 m9 l8">
                     <h1 class="blue-text text-darken-2">Medical Industry</h1>
                     <img src="images/medical.jpg" class="responsive-img">
+                    <small><i>Photo by rawpixel.com from Pexels.</i></small>
                 </div>
         
                 <div class="col s12 m9 l8">
@@ -33,7 +34,7 @@
                     <div id="machine-learning" class="section scrollspy">
                         <h3>Machine Learning</h3>
                         <p>
-                            Along with diabetes and heart disease, patients with chronic conditions account for the majority of health care expenditures in the U.S. About 86% of health care spending is derived from patients with one or more chronic conditions.2 The United States Agency for Healthcare Research and Quality estimates that applying machine learning analytics, an application within the field of artificial intelligence, to determine alternative treatments or to detect early signs of these ailments could prevent up to 4.4 million hospital admissions, saving the health care system $30.8 billion in costs. Roughly half of those costs are attributed to heart disease and diabetes.
+                            Along with diabetes and heart disease, patients with chronic conditions account for the majority of health care expenditures in the U.S. About 86% of health care spending is derived from patients with one or more chronic conditions. The United States Agency for Healthcare Research and Quality estimates that applying machine learning analytics, an application within the field of artificial intelligence, to determine alternative treatments or to detect early signs of these ailments could prevent up to 4.4 million hospital admissions, saving the health care system $30.8 billion in costs. Roughly half of those costs are attributed to heart disease and diabetes.
                         </p>
                         <p>
                             Researchers at Boston University’s Center for Information and Systems Engineering aim to use their health technology to target widespread chronic illnesses to demonstrate how this technology could drastically lower health care costs. Using an advanced algorithm, researchers in the Boston area found that they could predict hospitalizations due to heart disease and diabetes nearly a year in advance with an accuracy of up to 82%. The algorithm was built with patients’ electronic health records (EHRs) that include 200 factors ranging from demographics to previous procedures to lab results.3 The technology plays a dual purpose of providing patients with advanced care while also allowing the hospital to reduce costs by determining whether a patient needs to be admitted to the hospital or whether alternative treatment outside a hospital inpatient setting would better serve their needs.
@@ -96,7 +97,34 @@
             </div>
             
             <!-- Footer -->
-            <footer class="page-footer blue" style="z-index:800;">
+            <footer class="page-footer blue darken-2 pin-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h4 class="grey-text text-lighten-4">Content used from Expansion Solutions Magazine, <i>"Digital Tech Trends and the Future of the Health Care Industry"</i>, written by Jim Damicis, Alexandra Tranmar, and Bethany Meys of Camoin Associates.</h4>
+                            <a href="https://www.expansionsolutionsmagazine.com/111217_healthcare" target="_blank" class="purple-text text-lighten-5" style="font-weight:500;">Read More</a>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Bibliography</h5>
+                            <ol>
+                                <li>“Total Health Expenditure.” IBISWorld. April 2017.</li>
+                                <li>E. C. Schneider, D. O. Sarnak, D. Squires, A. Shah, and M. M. Doty. "Mirror, Mirror, 2017: International Comparison Reflects Flaws and opportunities for Better U.S. Health Care." The Commonwealth Fund. July 2017. Web.</li>
+                                <li>Ferris, Robert. "Americans Spending More Money Treating Diabetes than Any Other Disease." CNBC. CNBC, 27 Dec. 2016. Web.</li>
+                                <li>Multiple Chronic Conditions Chartbook." Agency for Healthcare Research and Quality. Abt Associates, Apr. 2014. Web.</li>
+                                <li>Paschalidis, Yannis. "How Machine Learning Is Helping Us Predict Heart Disease and Diabetes." Harvard Business Review. 30 May 2017. Web.</li>
+                                <li>Office of Public and Intergovernmental Affairs. "Office of Public and Intergovernmental Affairs." News Releases - Office of Public and Intergovernmental Affairs. 01 Sept. 2016. Web.</li>
+                                <li>Why UC San Diego Health Moved Electronic Medical Records to the Cloud." Digital Commerce 360. 17 Aug. 2017. Web.</li>
+                                <li>Allina Health Gives 500,000 Patients Access to Electronic Doc Notes." Digital Commerce 360. 10 July 2017. Web.</li>
+                                <li>Telemedicine Services To Surge: KPMG Survey." KPMG. N.p., n.d. Web.</li>
+                                <li>"Horizon Home Health Brings Comprehensive Telehealth Services to Patient." PRWeb. 07 June 2017. Web.</li>
+                                <li>HealthITAnalytics. "Is Blockchain the Answer to Healthcare's Big Data Problems?" HealthITAnalytics. 17 July 2017. Web.</li>
+                                <li>Fingas, Jon. "Apple, Alphabet and Fitbit Test FDA Fast Track for Health Apps." Engadget. 26 Sept. 2017. Web.</li>
+                                <li>FDA Test Speeds up Approval for Apple and Other Tech Companies." CNNMoney. Cable News Network, n.d. Web.</li>
+                                <li>A4L Uses Machine Learning to Detect Coronary Artery Disease." InvestinOntario. 11 Aug. 2017. Web.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
                 <div class="footer-copyright">
                     <div class="container" include-html="inc/medical/footer.config">
                     </div>

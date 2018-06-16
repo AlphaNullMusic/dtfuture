@@ -27,16 +27,20 @@
     <body>
         <!-- Navbar -->
         <div class="navbar-fixed">
+            <ul id="industries-dropdown" class="dropdown-content">
+                <li class="tab"><a onclick="topFunction();" href="#agricultural">Agricultural</a></li>
+                <li class="tab"><a onclick="topFunction();" href="#education">Education</a></li>
+                <li class="tab"><a onclick="topFunction();" href="#entertainment">Entertainment</a></li>
+                <li class="tab"><a onclick="topFunction();" href="#medical">Medical</a></li>
+            </ul>
             <nav>
                 <div class="nav-wrapper blue">
-                    <a href="#!" class="brand-logo center">DTFuture</a>
+                    <a href="#!" onclick="changeColor();" class="brand-logo center">DTFuture</a>
                     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down tabbs">
                         <li class="tab"><a class="active" href="#home">Home</a></li>
-                        <li class="tab"><a href="#agricultural">Agricultural</a></li>
-                        <li class="tab"><a href="#education">Education</a></li>
-                        <li class="tab"><a href="#entertainment">Entertainment</a></li>
-                        <li class="tab"><a href="#medical">Medical</a></li>
+                        <li><a class="dropdown-trigger" href="#!" data-target="industries-dropdown">Industries<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <li class="tab"><a href="#further-information">Further Information</a></li>
                     </ul>
                 </div>
             </nav>
@@ -44,11 +48,12 @@
 
         <!-- Mobile Nav -->
         <ul class="sidenav tabbs" id="mobile-demo">
-            <li class="tab"><a class="active" href="#home">Home</a></li>
-            <li class="tab"><a href="#agricultural">Agricultural</a></li>
-            <li class="tab"><a href="#education">Education</a></li>
-            <li class="tab"><a href="#entertainment">Entertainment</a></li>
-            <li class="tab"><a href="#medical">Medical</a></li>
+            <li class="tab"><a class="active sidenav-close" onclick="topFunction();" href="#home">Home</a></li>
+            <li class="tab"><a class="sidenav-close" onclick="topFunction();" href="#agricultural">Agricultural</a></li>
+            <li class="tab"><a class="sidenav-close" onclick="topFunction();" href="#education">Education</a></li>
+            <li class="tab"><a class="sidenav-close" onclick="topFunction();" href="#entertainment">Entertainment</a></li>
+            <li class="tab"><a class="sidenav-close" onclick="topFunction();" href="#medical">Medical</a></li>
+            <li class="tab"><a class="sidenav-close" onclick="topFunction();" href="#further-information">Further Information</a></li>
         </ul>
 
         
@@ -66,14 +71,21 @@
         <!-- Agricultural Tab -->
         <div id="agricultural" class="content" include-html="inc/agricultural.inc">
         </div>
+        
         <!-- Education Tab -->
         <div id="education" class="content" include-html="inc/education.inc">
         </div>
+        
         <!-- Entertainment Tab -->
         <div id="entertainment" class="content" include-html="inc/entertainment.inc">
         </div>
+        
         <!-- Medical Tab -->
         <div id="medical" class="content" include-html="inc/medical.inc">
+        </div>
+        
+        <!-- Further Information Tab -->
+        <div id="further-information" class="content" include-html="inc/further-information.inc">
         </div>
     </body>
 
@@ -124,6 +136,7 @@
             $('.sidenav').sidenav();
             $('.tabbs').tabs();
             $('#load-modal').modal();
+            $(".dropdown-trigger").dropdown();
             
             // Search and set cookies
             var preloader = Cookies.get('preloader');
@@ -171,6 +184,16 @@
             }, 800);
             
             return false;
+        }
+        
+        function changeColor() {
+            if ($('.further-info').hasClass('white')) {
+                $('.further-info').addClass('black').removeClass('white');
+                $('.further-text').addClass('white-text').removeClass('black-text');
+            } else {
+                $('.further-info').addClass('white').removeClass('black');
+                $('.further-text').addClass('black-text').removeClass('white-text');
+            }
         }
     </script>
 </html>

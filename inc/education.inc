@@ -17,6 +17,7 @@
                 <div class="col s12 m9 l8">
                     <h1 class="blue-text text-darken-2">Education Industry</h1>
                     <img src="images/education.jpg" class="responsive-img">
+                    <small><i>Photo by pixabay.com from Pexels.</i></small>
                 </div>
         
                 <div class="col s12 m9 l8">
@@ -94,9 +95,9 @@
 
                     <div id="end" class="section scrollspy">
                         <h3>Conclusion</h3>
-                        <h6>
+                        <h4 style="font-weight:100;">
                             Nowadays, students become more and more involved in forming their own education. In 10 years, students will incorporate so much independence into their learning process, that mentoring will become fundamental to student success. And teachers will form a central point in the jungle of information that students will be paving their way through. I really believe that the future of technology in education is about adapting to the fast-changing world, giving students an opportunity to choose their own way of learning, combining theory and practice, always taking into account the current demand of the market.
-                        </h6><br><br><br><br><br><br><br><br>
+                        </h4><br><br><br><br><br><br><br><br>
                     </div>
                 </div>
 
@@ -110,7 +111,25 @@
             </div>
             
             <!-- Footer -->
-            <footer class="page-footer blue" style="z-index:800;">
+            <footer class="page-footer blue darken-2 pin-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h4 class="grey-text text-lighten-4">Content used from Apiumhub, <i>"Future of Technology in Education"</i>, written by Ekaterina Novoseltseva.</h4>
+                            <a href="https://apiumhub.com/tech-blog-barcelona/future-technology-education/" target="_blank" class="purple-text text-lighten-5" style="font-weight:500;">Read More</a>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Details</h5>
+                            <ul>
+                                <li><strong>Type:</strong> Article</li>
+                                <li><strong>Author:</strong> Novoseltseva, Ekaterina</li>
+                                <li><strong>Title:</strong> Technology: The Future of Agriculture</li>
+                                <li><strong>Published:</strong> 2017/12/21</li>
+                                <li><strong>Publisher:</strong> Apiumhub. All Rights Reserved.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="footer-copyright">
                     <div class="container" include-html="inc/education/footer.config">
                     </div>

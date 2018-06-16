@@ -17,6 +17,7 @@
                 <div class="col s12 m9 l8">
                     <h1 class="blue-text text-darken-2">Entertainment Industry</h1>
                     <img src="images/entertainment.jpg" class="responsive-img">
+                    <small><i>Photo by anna-m. weber from Pexels.</i></small>
                 </div>
         
                 <div class="col s12 m9 l8">
@@ -28,7 +29,7 @@
                             Digital television systems will offer programs that are sharper and clearer than current broadcast systems. The Internet — or some other high-speed communications network — will allow studios to send or "stream" hundreds of digital movies directly to digital theaters and homes. New "set-top boxes" and "digital hubs" in homes will automatically seek out programs and content that matches consumers' interest.
                         </p>
                         <p>
-                            Yet digital technology is also raising thorny issues among Hollywood, technology companies, and consumers.
+                            <i>Yet digital technology is also raising thorny issues among Hollywood, technology companies, and consumers.</i>
                         </p>
                     </div>
 
@@ -41,7 +42,7 @@
                             Much as the music industry learned over the last few years, the technology used to create digital media can be used to illegally copy and "steal" the content. The record industry claims that millions of dollars were lost from pirates who "ripped" digital music from CDs using MP3 software technology and then share them others online through Web sites such as Napster.
                         </p>
                         <blockquote>
-                            "Once content is available in downloaded and compressed form, it's easier to share — and harder to control," says Sean Wargo, senior industry analyst for the Consumer Electronics Association.
+                            <strong><i>"Once content is available in downloaded and compressed form, it's easier to share — and harder to control,"</i></strong> says Sean Wargo, senior industry analyst for the Consumer Electronics Association.
                         </blockquote>
                         <p>
                             Entertainment industry executives believe that technologies exist that could easily be implemented to protect their hard-developed content. So-called "watermarking" techniques, for example, would embed codes into the digital programs that would allow only legitimate users to access the programs on their digital receivers.
@@ -49,7 +50,7 @@
                             But consumer advocates question just what kind of "access" such technologies will allow.
                         </p>
                         <blockquote>
-                            "Would you be able to take a copy [of a digital program] and loan it to a friend who missed [recording] it?" asks Fred von Lohmann, senior staff attorney for the Electronic Frontier Foundation. "There is a real danger that consumers will lose a lot of capabilities they are use to [now] and are fairly legitimate."
+                            <strong><i>"Would you be able to take a copy [of a digital program] and loan it to a friend who missed [recording] it?"</i></strong> asks Fred von Lohmann, senior staff attorney for the Electronic Frontier Foundation. <strong><i>"There is a real danger that consumers will lose a lot of capabilities they are use to [now] and are fairly legitimate."</i></strong>
                         </blockquote>
                         <p>
                             Until the entertainment industry and the technology industry can work out how to safeguard digital content, it's unlikely that studios will actively pursue distributing movies on the Net soon.
@@ -65,7 +66,7 @@
                             Ultimately, digital production may also save costs on distributing films to theaters. Instead of producing and shipping thousands of reels of films to theaters, studios could transfer the motion picture like any other computer file. Such film-less movies would save studios an estimated $600,000 in marketing costs for each major motion picture.
                         </p>
                         <blockquote>
-                            "People will be able to create professional-level movies for an incredibly reasonable cost. You will see an explosion in the film-making process," Victor Harwood predicts.
+                            <strong><i>"People will be able to create professional-level movies for an incredibly reasonable cost. You will see an explosion in the film-making process,"</i></strong> Victor Harwood predicts.
                         </blockquote>
                     </div>
 
@@ -96,7 +97,35 @@
             </div>
             
             <!-- Footer -->
-            <footer class="page-footer blue" style="z-index:800;">
+            <footer class="page-footer blue darken-2 pin-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col l6 s12">
+                            <h4 class="grey-text text-lighten-4">Content used from ABC News, <i>"The Tricky Future of Digital Home Entertainment"</i>, written by Paul Eng, and from Medium, <i>"Technology to Shape the Future of Media &amp; Entertainment"</i>, written by Sergey Bludov.</h4>
+                            <a href="https://abcnews.go.com/Technology/story?id=98049" target="_blank" class="purple-text text-lighten-5" style="font-weight:500;">Read More</a>
+                        </div>
+                        <div class="col l4 offset-l2 s12">
+                            <h5 class="white-text">Details</h5>
+                            <h6 class="white-text"><i>"The Tricky Future of Digital Home Entertainment"</i></h6>
+                            <ul>
+                                <li><strong>Type:</strong> News Articles</li>
+                                <li><strong>Author:</strong> Eng, Paul</li>
+                                <li><strong>Title:</strong> The Tricky Future of Digital Home Entertainment</li>
+                                <li><strong>Published:</strong> 2018/03/21</li>
+                                <li><strong>Publisher:</strong> ABC News. All Rights Reserved.</li>
+                            </ul>
+                            <br>
+                            <h6 class="white-text"><i>"Technology to Shape the Future of Media &amp; Entertainment"</i></h6>
+                            <ul>
+                                <li><strong>Type:</strong> News Articles</li>
+                                <li><strong>Author:</strong> Bludov, Sergey</li>
+                                <li><strong>Title:</strong> Technology to Shape the Future of Media &amp; Entertainment</li>
+                                <li><strong>Published:</strong> 2018/01/09</li>
+                                <li><strong>Publisher:</strong> Medium. All Rights Reserved.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <div class="footer-copyright">
                     <div class="container" include-html="inc/entertainment/footer.config">
                     </div>
